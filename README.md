@@ -13,6 +13,7 @@ Additionally, set the appropriate sonarqube properties in `build.gradle`.
 - `gradle sonarqube`
 - `git checkout -b sonarqube-test`
 - Add a line in `Main.tested()`, e.g. a print statement just before the return statement
+- Commit the change
 - `gradle build`
 - `gradle sonarqube -Dsonar.branch.name=sonarqube-test`
 - Go to SonarQube and observe the issue
