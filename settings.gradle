@@ -1,0 +1,8 @@
+//pluginManagement {
+//    repositories {
+//        maven {
+//            url 'your-repo-here'
+//        }
+//    }
+//}
+rootProject.name = 'sonarqube-change'
